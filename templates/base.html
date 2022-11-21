@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="news/css/newscss.css">
+    <style>
+        form{
+            position: relative;
+            float: left;
+            margin-left: 50px;
+            width: 150px;
+            margin: 0 auto;
+        }
+        .d1{
+            float: left;
+            margin-left: 50px;
+            line-height: 67px;
+        }
+        .d1 input{
+            width: 100px;
+            height: 30px;
+            border: 2px solid darkred;
+            border-radius: 5px;
+            outline: none;
+            background: white;
+            color: #1e242a;
+        }
+
+        .outer{
+            float: bottom;
+            margin-bottom: 200px;
+            line-height: 30px;
+
+        }
+        .widget-title{
+            float: right;
+            margin-top: -300px;
+            margin-right: 80px;
+        }
+
+        .category-list{
+            float: right;
+            margin-top: -250px;
+            margin-right: 50px;
+        }
+        .article-category{
+            float: top;
+            margin-right: 125px;
+            margin-bottom: 150px;
+        }
+        .article-footer{
+            float: right;
+            margin-right: 100px;
+            margin-bottom: 20px;
+        }
+        #main{
+            width: 800px;
+            height: 400px;
+        }
+        #container{
+            float: top;
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+             <div id="wrap">
+
+                 {% include 'header.html' %}
+                 <div class="outer">
+                      {% block main %}
+             
+                      {% endblock %}
+
+                      {% include 'right.html' %}
+                 </div>
+                 {% include 'footer.html' %}
+             </div>
+</div>
+</body>
+</html>

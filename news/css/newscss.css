@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+body{ border:0; font-size:14px; color:#4f4f4f; margin:0px; text-align:left; line-height:26px; font-family: "宋体"}
+
+img{border:0;}
+ul, li{padding:0; margin:0; list-style:none;}
+a {text-decoration: none; color:#4f4f4f;}
+a:hover {color: #047c42;}
+
+#container{ width:990px; margin: 0 auto; }
+
+.main{overflow:hidden; margin:10px 0px 0px 0px; }
+.main01{overflow:auto; }
+.left{ width:363px; float:left; margin:0px 10px 0px 0px}
+.left01{ width:743px; float:left; margin:0px 5px 0px 0px}
+.center{ width:363px;float:right; margin:0px 5px 0px 0px}
+.right{ width: 236px;float:right;margin:0px 0px 10px 0px; }
+h1{ font-family:"微软雅黑"; font-size:17px; line-height:30px ; color:#000; }
+h1 a{ color:#000;}
+h1 a:hover{  color:#047c42; text-decoration:underline}
+
+.ltitbg{ background:url(../images/nline01.gif) no-repeat; height:30px; margin-bottom:10px;}
+.ltitbg td{ padding-left:20px}
+.white{ font-size:18px; color:#FFF; font-weight:bold; line-height:30px; font-family:"微软雅黑" }
+.white01{ font-size:16px; color:#FFF;  line-height:30px; font-family:"微软雅黑" }
+.more{ font-size:12px; color:#262626;}
+.Black{ font-size:18px; line-height:26px;font-family:"微软雅黑"; color:#000; margin:10px 0px;font-weight:bold; }
+.Black a{ color:#2c9263}
+.Black04{ font-size:16px; line-height:26px;font-family:"微软雅黑"; color:#000; margin:10px 0px;font-weight:bold; }
+.Black04 a{ color:#333}
+.Black01{ font-size:16px; line-height:26px;font-family:"微软雅黑"; color:#333; margin:10px 0px;font-weight:bold; text-align: center }
+.summary{ font-size:13px; color:#707070; text-indent:0em}
+.boxm{ margin-bottom:20px;}
+
+.rtit{ background:url(../images/rtitbg.gif) no-repeat; height:32px;}
+.rtit p{ color:#000;font-size:18px; line-height:32px;font-family:"微软雅黑" ; margin-left:15px;font-weight:bold; }
+.newinput{ width:108px; height:32px; border:1px solid #CCC; background:#FFF; line-height:32px; margin:15px 0px}
+.calendar { background:#2c9263; height:32px; color:#fff; font-size:14px; font-weight:bold; line-height:32px;}
+.photoxbox{ background:#ecede5; margin:15px 0px; padding:10px}
+.nbanner{ width:234px; height:62px; border:1px solid #dfdfdf; margin-bottom:15px;}
+.nbanner1{ width:234px; height:62px; border:1px solid #dfdfdf; margin:10px 0px 5px  0px;}
+.newtu{ background:url(../images/nline04.gif) no-repeat; height:35px; margin-left:8px}
+.newfonter{ font-size:12px; margin:10px 0px; line-height:22px;}
+
+.ntit02{ background:url(../images/nline.gif) no-repeat; margin:5px 0px 10px 0px; height:4px;}
+.ntit03{ background:url(../images/nline02.gif) no-repeat; margin:5px 0px 10px 0px; height:4px;}
+.green{ font-family:"微软雅黑"; font-size:20px; color:#2c9263; font-weight: bold }
+.Black02{ font-family:"微软雅黑"; font-size:16px; color:#2c9263; font-weight: bold }
+
+.ltit001{ background:url(../images/nline03.gif)  no-repeat; height:30px;}
+.nlist{ font-size:12px;}
+.rbotbox{ overflow:auto;font-family:"微软雅黑"; font-size:16px; margin-bottom:15px;}
+.rbot01{ background:#2c9263; height:40px; width:115px; float:left; color:#FFF; text-align:center; line-height:40px; font-size:15px }
+.rbot02{ background:#d4d4d4; height:40px; width:115px; float:left;text-align:center; line-height:40px;font-size:15px}
+.rbot01 a{color:#FFF; }
+.rbot02 a{color:#262626; }
+.newrlist1{ background:url(../images/newrlist1.gif) no-repeat; height:27px; font-size:12px;}
+.newrlist1 td{ padding-left:5px}
+.wh{ color:#FFF; font-weight:bold}
+.newrlist2{ background:url(../images/newrlist2.gif) no-repeat; height:26px;font-size:12px;}
+.newrlist2 td{ padding-left:5px}
+.zhunanti{ text-align:center; font-weight:bold}
+.zhibo{ background:url(../images/rtitbg01.gif) no-repeat; height:37px; margin:10px 0px;}
+.zhibo p{ line-height:37px; color:#FFF; font-weight:bold; font-family:"微软雅黑"; font-size:18px; margin-left:20px}
+.bzbox{ background:#ededed; padding:10px; margin-bottom:10px; margin-top:10px}
+.bzfont{ color:#2c2c2c; font-size:14px; font-weight:bold; line-height:20px;}
+.szbox01{ width:23px; height:19px; background:url(../images/fang01.gif); text-align:center; color:#FFF; font-weight:bold; line-height:19px; margin-bottom:5px;}
+.szbox02{ width:23px; height:19px; background:url(../images/fang02.gif); text-align:center; color:#676767; font-weight:bold; line-height:19px;margin-bottom:5px;}
+
+#footer{ background:#890f0e; text-align:center; padding:10px; color:#FFF; font-size:12px;}
+#footer a{color:#FFF; font-size:12px;}
